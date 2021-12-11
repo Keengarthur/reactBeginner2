@@ -1,0 +1,62 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    margin:0;
+    padding:0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition:all 0.8s ease-out;
+
+    /* background:lime; */
+}
+main{
+    width:100vw;
+    height:cover;
+}
+
+.nav{
+    background:lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    
+}
+.logo{
+    width:7rem;
+}
+
+.sign-in-form{
+    width:40%;
+    height:50%;
+    margin:10rem auto 15rem auto;
+    background:rgb(119, 113, 113);
+    text-align: center;
+    padding-top: 3rem;
+}
+.form-div{
+    width:70%;
+    margin:2rem auto;
+    font-size: 2rem;
+}
+input{
+    padding:1rem;
+    margin-top: 8px;
+    outline:none;
+}
+input:last-child{
+    margin-left: 1.5rem;
+}
+button{
+    display: inline-block;
+    margin:3rem auto;
+    align-self: center;
+    padding:1rem 1.5rem;
+}
